@@ -1,12 +1,10 @@
 {
-  "extends": ["config:base", "docker:disable", ":automergeMinor"],
+  "extends": [
+    "config:base",
+    "docker:disable",
+    ":automergeMinor"
+  ],
   "rangeStrategy": "bump",
   "includeForks": true,
-  "pathRules": [
-    {
-      "paths": ["examples/**"],
-      "extends": [":semanticCommitTypeAll(chore)", ":automergeMinor"],
-      "branchName": "{{branchPrefix}}examples-{{depNameSanitized}}-{{newVersionMajor}}.x"
-    }
-  ]
+  "pathRules": []
 }
