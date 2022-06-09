@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@graphql-tools/delegate': ^8.7.11
@@ -44,7 +44,7 @@ devDependencies:
   pretty-quick: 3.1.3_prettier@2.6.2
   rimraf: 3.0.2
   semantic-release: 17.4.7
-  ts-jest: 26.5.6_jest@26.6.3+typescript@4.7.3
+  ts-jest: 26.5.6_wjc3ujwcbt47vaavc5ebl5y3om
   ts-node: 9.1.1_typescript@4.7.3
   typescript: 4.7.3
 
@@ -6057,7 +6057,7 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /ts-jest/26.5.6_jest@26.6.3+typescript@4.7.3:
+  /ts-jest/26.5.6_wjc3ujwcbt47vaavc5ebl5y3om:
     resolution: {integrity: sha512-rua+rCP8DxpA8b4DQD/6X2HQS8Zy/xzViVYfEs2OQu68tkCuKLV0Md8pmX55+W24uRIyAsf/BajRfxOs+R2MKA==}
     engines: {node: '>= 10'}
     hasBin: true
