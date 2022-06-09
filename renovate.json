@@ -1,6 +1,7 @@
 {
   "extends": ["config:base", "docker:disable", ":automergeMinor"],
   "rangeStrategy": "bump",
+  "includeForks": true,
   "pathRules": [
     {
       "paths": ["examples/**"],
