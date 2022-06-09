@@ -52,6 +52,9 @@
   "peerDependencies": {
     "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
   },
+  "resolutions": {
+    "graphql-tag": "^2.12.6"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "compile": "bob-esbuild build",
