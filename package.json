@@ -26,6 +26,7 @@
     "@graphql-tools/delegate": "^8.7.10",
     "@graphql-tools/schema": "^8.3.13"
   },
+  "trigger": true,
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/lodash": "^4.14.182",
