@@ -2,9 +2,9 @@
 
 # graphql-middleware
 
-[![Actions Status](https://github.com/maticzav/graphql-middleware/workflows/Test/badge.svg)](https://github.com/maticzav/graphql-middleware/actions)
-[![codecov](https://codecov.io/gh/maticzav/graphql-middleware/branch/master/graph/badge.svg?token=TuIfoaKhc5)](https://codecov.io/gh/maticzav/graphql-middleware)
-[![npm version](https://badge.fury.io/js/graphql-middleware.svg)](https://badge.fury.io/js/graphql-middleware)
+[![Actions Status](https://github.com/technology-studio/graphql-middleware/workflows/Test/badge.svg)](https://github.com/technology-studio/graphql-middleware/actions)
+[![codecov](https://codecov.io/gh/technology-studio/graphql-middleware/branch/master/graph/badge.svg?token=TuIfoaKhc5)](https://codecov.io/gh/technology-studio/graphql-middleware)
+[![npm version](https://badge.fury.io/js/@txo%2Fgraphql-middleware.svg)](https://badge.fury.io/js/@txo%2Fgraphql-middleware)
 
 Split up your GraphQL resolvers in middleware functions.
 
