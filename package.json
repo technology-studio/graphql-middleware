@@ -68,13 +68,13 @@
   "release": {
     "branch": "master"
   },
-  "homepage": "https://github.com/maticzav/graphql-middleware",
+  "homepage": "https://github.com/technology-studio/graphql-middleware",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maticzav/graphql-middleware.git"
+    "url": "https://github.com/technology-studio/graphql-middleware.git"
   },
   "bugs": {
-    "url": "https://github.com/maticzav/graphql-middleware/issues"
+    "url": "https://github.com/technology-studio/graphql-middleware/issues"
   },
   "keywords": [
     "graphql",
