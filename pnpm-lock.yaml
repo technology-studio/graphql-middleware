@@ -11,7 +11,7 @@ specifiers:
   '@types/node': '*'
   apollo-server: ^3.9.0
   axios: ^0.27.2
-  bob-esbuild: ^4.0.0
+  bob-esbuild: ^4.0.3
   bob-esbuild-cli: ^4.0.0
   codecov: ^3.8.3
   esbuild: ^0.14.46
@@ -37,8 +37,8 @@ devDependencies:
   '@types/node': 16.6.1
   apollo-server: 3.9.0_graphql@16.5.0
   axios: 0.27.2
-  bob-esbuild: 4.0.0_tgltyodexxgeoydizohv436tty
-  bob-esbuild-cli: 4.0.0_bob-esbuild@4.0.0
+  bob-esbuild: 4.0.3_tgltyodexxgeoydizohv436tty
+  bob-esbuild-cli: 4.0.0_bob-esbuild@4.0.3
   codecov: 3.8.3
   esbuild: 0.14.46
   graphql: 16.5.0
@@ -976,9 +976,9 @@ packages:
       '@octokit/openapi-types': 9.7.0
     dev: true
 
-  /@pnpm/types/8.0.1:
-    resolution: {integrity: sha512-2CdIXHvUvTXo/R+rFthQhQw3MdppvXOVl2QXDDjRPgNR8i6HemYceYqgBZ24alXJqmLzTsnuLKBXPdwiLq6nlA==}
-    engines: {node: '>=14.19'}
+  /@pnpm/types/8.2.0:
+    resolution: {integrity: sha512-Lr976vR4mezo3iL4bwGXyZFaDuVhkoko1Dr159mj+/GrqghiVmZFSZQQZNkfWEvMq1v3NSCTtPPzMTZASKJzCg==}
+    engines: {node: '>=14.6'}
     dev: true
 
   /@protobufjs/aspromise/1.1.2:
@@ -1725,7 +1725,7 @@ packages:
     resolution: {integrity: sha512-3pZEU3NT5BFUo/AD5ERPWOgQOCZITni6iavr5AUw5AUwQjMlI0kzu5btnyD39AF0gUEsDPwJT+oY1ORBJijPjQ==}
     dev: true
 
-  /bob-esbuild-cli/4.0.0_bob-esbuild@4.0.0:
+  /bob-esbuild-cli/4.0.0_bob-esbuild@4.0.3:
     resolution: {integrity: sha512-wJ0td3/TdcfjGmKr94pcxi2qsrXQpXuUzX5xEe0FYoOVNqrtSoeqUD67pUXrfgGmA9jDkQoq1t9b0+7FpQtHxw==}
     engines: {node: '>=14.13.1'}
     hasBin: true
@@ -1735,7 +1735,7 @@ packages:
       bob-esbuild:
         optional: true
     dependencies:
-      bob-esbuild: 4.0.0_tgltyodexxgeoydizohv436tty
+      bob-esbuild: 4.0.3_tgltyodexxgeoydizohv436tty
       commander: 9.3.0
     dev: true
 
@@ -1755,8 +1755,8 @@ packages:
       rollup: 2.75.6
     dev: true
 
-  /bob-esbuild/4.0.0_tgltyodexxgeoydizohv436tty:
-    resolution: {integrity: sha512-h+WYaLGyZ0I1C0zUOZ4JZMZliZ4aN7guV5qS0cXH53J9ocqm4ROEfWVDCxotXxRSJ8aiVZd3bVs3KJpyLZFHOw==}
+  /bob-esbuild/4.0.3_tgltyodexxgeoydizohv436tty:
+    resolution: {integrity: sha512-9AGuh6V5Whsditj5n2oJjWAvHwgadgD2HD0qZ4rEBwY9tpj8YbfYeiaXQQV9qJxwT9oUYOsQE53wPNYBFDIfJA==}
     peerDependencies:
       esbuild: '>=0.14.39'
       typescript: '*'
@@ -1766,7 +1766,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@pnpm/types': 8.0.1
+      '@pnpm/types': 8.2.0
       bob-esbuild-plugin: 4.0.0_cwxz74zmd3ygpekohj7vrjvhry
       esbuild: 0.14.46
       rollup: 2.75.6
