@@ -6,7 +6,7 @@ overrides:
 specifiers:
   '@graphql-tools/delegate': ^8.8.0
   '@graphql-tools/schema': ^8.5.0
-  '@types/jest': ^28.1.4
+  '@types/jest': ^28.1.5
   '@types/lodash': ^4.14.182
   '@types/node': '*'
   apollo-server: ^3.10.0
@@ -32,7 +32,7 @@ dependencies:
   '@graphql-tools/schema': 8.5.0_graphql@16.5.0
 
 devDependencies:
-  '@types/jest': 28.1.4
+  '@types/jest': 28.1.5
   '@types/lodash': 4.14.182
   '@types/node': 16.6.1
   apollo-server: 3.10.0_graphql@16.5.0
@@ -1288,8 +1288,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/28.1.4:
-    resolution: {integrity: sha512-telv6G5N7zRJiLcI3Rs3o+ipZ28EnE+7EvF0pSrt2pZOMnAVI/f+6/LucDxOvcBcTeTL3JMF744BbVQAVBUQRA==}
+  /@types/jest/28.1.5:
+    resolution: {integrity: sha512-TLAC2zXxGnohSP3GxgIyJn7yrTeRPDEyVFyCY1NE2wzg392auI+69uk5EPGjUXuhkq/K208J/TWpLG7J8ebIEQ==}
     dependencies:
       jest-matcher-utils: 28.1.1
       pretty-format: 28.1.1
