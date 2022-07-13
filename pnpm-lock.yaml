@@ -24,7 +24,7 @@ specifiers:
   rimraf: ^3.0.2
   semantic-release: ^19.0.3
   ts-jest: ^28.0.5
-  ts-node: ^10.8.2
+  ts-node: ^10.9.0
   typescript: ^4.7.4
 
 dependencies:
@@ -44,13 +44,13 @@ devDependencies:
   graphql: 16.5.0
   husky: 8.0.1
   iterall: 1.3.0
-  jest: 28.1.3_efccrwetuqfvuz3hmrcfqkfvqy
+  jest: 28.1.3_zobu5ip6rclq3a7uynctd3insi
   prettier: 2.7.1
   pretty-quick: 3.1.3_prettier@2.7.1
   rimraf: 3.0.2
   semantic-release: 19.0.3
   ts-jest: 28.0.5_e4vlsll2vsrxuwy4jhlvxjbksa
-  ts-node: 10.8.2_ffddv3eoypor7thx3cqigqwdju
+  ts-node: 10.9.0_ffddv3eoypor7thx3cqigqwdju
   typescript: 4.7.4
 
 packages:
@@ -644,7 +644,7 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /@jest/core/28.1.3_ts-node@10.8.2:
+  /@jest/core/28.1.3_ts-node@10.9.0:
     resolution: {integrity: sha512-CIKBrlaKOzA7YG19BEqCw3SLIsEwjZkeJzf5bdooVnW4bH5cktqe3JX+G2YV1aK5vP8N9na1IGWFzYaTp6k6NA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     peerDependencies:
@@ -665,7 +665,7 @@ packages:
       exit: 0.1.2
       graceful-fs: 4.2.10
       jest-changed-files: 28.1.3
-      jest-config: 28.1.3_efccrwetuqfvuz3hmrcfqkfvqy
+      jest-config: 28.1.3_zobu5ip6rclq3a7uynctd3insi
       jest-haste-map: 28.1.3
       jest-message-util: 28.1.3
       jest-regex-util: 28.0.2
@@ -3303,7 +3303,7 @@ packages:
       - supports-color
     dev: true
 
-  /jest-cli/28.1.3_efccrwetuqfvuz3hmrcfqkfvqy:
+  /jest-cli/28.1.3_zobu5ip6rclq3a7uynctd3insi:
     resolution: {integrity: sha512-roY3kvrv57Azn1yPgdTebPAXvdR2xfezaKKYzVxZ6It/5NCxzJym6tUI5P1zkdWhfUYkxEI9uZWcQdaFLo8mJQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -3313,14 +3313,14 @@ packages:
       node-notifier:
         optional: true
     dependencies:
-      '@jest/core': 28.1.3_ts-node@10.8.2
+      '@jest/core': 28.1.3_ts-node@10.9.0
       '@jest/test-result': 28.1.3
       '@jest/types': 28.1.3
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.10
       import-local: 3.0.2
-      jest-config: 28.1.3_efccrwetuqfvuz3hmrcfqkfvqy
+      jest-config: 28.1.3_zobu5ip6rclq3a7uynctd3insi
       jest-util: 28.1.3
       jest-validate: 28.1.3
       prompts: 2.4.2
@@ -3331,7 +3331,7 @@ packages:
       - ts-node
     dev: true
 
-  /jest-config/28.1.3_efccrwetuqfvuz3hmrcfqkfvqy:
+  /jest-config/28.1.3_zobu5ip6rclq3a7uynctd3insi:
     resolution: {integrity: sha512-MG3INjByJ0J4AsNBm7T3hsuxKQqFIiRo/AUqb1q9LRKI5UU6Aar9JHbr9Ivn1TVwfUD9KirRoM/T6u8XlcQPHQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     peerDependencies:
@@ -3366,7 +3366,7 @@ packages:
       pretty-format: 28.1.3
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.8.2_ffddv3eoypor7thx3cqigqwdju
+      ts-node: 10.9.0_ffddv3eoypor7thx3cqigqwdju
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3687,7 +3687,7 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /jest/28.1.3_efccrwetuqfvuz3hmrcfqkfvqy:
+  /jest/28.1.3_zobu5ip6rclq3a7uynctd3insi:
     resolution: {integrity: sha512-N4GT5on8UkZgH0O5LUavMRV1EDEhNTL0KEfRmDIeZHSV7p2XgLoY9t9VDUgL6o+yfdgYHVxuz81G8oB9VG5uyA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -3697,10 +3697,10 @@ packages:
       node-notifier:
         optional: true
     dependencies:
-      '@jest/core': 28.1.3_ts-node@10.8.2
+      '@jest/core': 28.1.3_ts-node@10.9.0
       '@jest/types': 28.1.3
       import-local: 3.0.2
-      jest-cli: 28.1.3_efccrwetuqfvuz3hmrcfqkfvqy
+      jest-cli: 28.1.3_zobu5ip6rclq3a7uynctd3insi
     transitivePeerDependencies:
       - '@types/node'
       - supports-color
@@ -5126,7 +5126,7 @@ packages:
       bs-logger: 0.2.6
       esbuild: 0.14.49
       fast-json-stable-stringify: 2.1.0
-      jest: 28.1.3_efccrwetuqfvuz3hmrcfqkfvqy
+      jest: 28.1.3_zobu5ip6rclq3a7uynctd3insi
       jest-util: 28.1.1
       json5: 2.2.1
       lodash.memoize: 4.1.2
@@ -5136,8 +5136,8 @@ packages:
       yargs-parser: 21.0.1
     dev: true
 
-  /ts-node/10.8.2_ffddv3eoypor7thx3cqigqwdju:
-    resolution: {integrity: sha512-LYdGnoGddf1D6v8REPtIH+5iq/gTDuZqv2/UJUU7tKjuEU8xVZorBM+buCGNjj+pGEud+sOoM4CX3/YzINpENA==}
+  /ts-node/10.9.0_ffddv3eoypor7thx3cqigqwdju:
+    resolution: {integrity: sha512-bunW18GUyaCSYRev4DPf4SQpom3pWH29wKl0sDk5zE7ze19RImEVhCW7K4v3hHKkUyfWotU08ToE2RS+Y49aug==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
