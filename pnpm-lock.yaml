@@ -4,8 +4,8 @@ overrides:
   graphql-tag: ^2.12.6
 
 specifiers:
-  '@graphql-tools/delegate': ^8.8.1
-  '@graphql-tools/schema': ^8.5.1
+  '@graphql-tools/delegate': ^9.0.3
+  '@graphql-tools/schema': ^9.0.1
   '@types/jest': ^28.1.7
   '@types/lodash': ^4.14.183
   '@types/node': '*'
@@ -28,8 +28,8 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  '@graphql-tools/delegate': 8.8.1_graphql@16.6.0
-  '@graphql-tools/schema': 8.5.1_graphql@16.6.0
+  '@graphql-tools/delegate': 9.0.3_graphql@16.6.0
+  '@graphql-tools/schema': 9.0.1_graphql@16.6.0
 
 devDependencies:
   '@types/jest': 28.1.7
@@ -528,26 +528,26 @@ packages:
     dev: true
     optional: true
 
-  /@graphql-tools/batch-execute/8.5.1_graphql@16.6.0:
-    resolution: {integrity: sha512-hRVDduX0UDEneVyEWtc2nu5H2PxpfSfM/riUlgZvo/a/nG475uyehxR5cFGvTEPEQUKY3vGIlqvtRigzqTfCew==}
+  /@graphql-tools/batch-execute/8.5.3_graphql@16.6.0:
+    resolution: {integrity: sha512-dvP1bM02/NSDuAS5A6sLIUUJgs0fuMSk3Ib2jc3pL7HG7jzm/IXfvPURs48pJlMnxcawjVDC8fLh1oWfjmoAGg==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/utils': 8.9.0_graphql@16.6.0
+      '@graphql-tools/utils': 8.10.0_graphql@16.6.0
       dataloader: 2.1.0
       graphql: 16.6.0
       tslib: 2.4.0
       value-or-promise: 1.0.11
     dev: false
 
-  /@graphql-tools/delegate/8.8.1_graphql@16.6.0:
-    resolution: {integrity: sha512-NDcg3GEQmdEHlnF7QS8b4lM1PSF+DKeFcIlLEfZFBvVq84791UtJcDj8734sIHLukmyuAxXMfA1qLd2l4lZqzA==}
+  /@graphql-tools/delegate/9.0.3_graphql@16.6.0:
+    resolution: {integrity: sha512-4noYCEL/0UeH+5KVRkkqLYH3iyXBb56hh120Y9DEc/JFmb1ldhgxGH2BuoINE2kt35dYhzRk9QA1+HG8FXIBWQ==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/batch-execute': 8.5.1_graphql@16.6.0
-      '@graphql-tools/schema': 8.5.1_graphql@16.6.0
-      '@graphql-tools/utils': 8.9.0_graphql@16.6.0
+      '@graphql-tools/batch-execute': 8.5.3_graphql@16.6.0
+      '@graphql-tools/schema': 9.0.1_graphql@16.6.0
+      '@graphql-tools/utils': 8.10.0_graphql@16.6.0
       dataloader: 2.1.0
       graphql: 16.6.0
       tslib: 2.4.0
@@ -572,6 +572,17 @@ packages:
       '@graphql-tools/utils': 8.9.0_graphql@16.6.0
       graphql: 16.6.0
       tslib: 2.4.0
+    dev: true
+
+  /@graphql-tools/merge/8.3.3_graphql@16.6.0:
+    resolution: {integrity: sha512-EfULshN2s2s2mhBwbV9WpGnoehRLe7eIMdZrKfHhxlBWOvtNUd3KSCN0PUdAMd7lj1jXUW9KYdn624JrVn6qzg==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/utils': 8.10.0_graphql@16.6.0
+      graphql: 16.6.0
+      tslib: 2.4.0
+    dev: false
 
   /@graphql-tools/mock/8.6.12_graphql@16.6.0:
     resolution: {integrity: sha512-o4plehiIgwqIB3TJDlEx7s6CHucTnrYsv4LqBXfyiXN10E9x0Ab44UxXjePbAd9yJFYEUYp0thqb7WjI3/3cmQ==}
@@ -607,6 +618,28 @@ packages:
       graphql: 16.6.0
       tslib: 2.4.0
       value-or-promise: 1.0.11
+    dev: true
+
+  /@graphql-tools/schema/9.0.1_graphql@16.6.0:
+    resolution: {integrity: sha512-Y6apeiBmvXEz082IAuS/ainnEEQrzMECP1MRIV72eo2WPa6ZtLYPycvIbd56Z5uU2LKP4XcWRgK6WUbCyN16Rw==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/merge': 8.3.3_graphql@16.6.0
+      '@graphql-tools/utils': 8.10.0_graphql@16.6.0
+      graphql: 16.6.0
+      tslib: 2.4.0
+      value-or-promise: 1.0.11
+    dev: false
+
+  /@graphql-tools/utils/8.10.0_graphql@16.6.0:
+    resolution: {integrity: sha512-yI+V373FdXQbYfqdarehn9vRWDZZYuvyQ/xwiv5ez2BbobHrqsexF7qs56plLRaQ8ESYpVAjMQvJWe9s23O0Jg==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      graphql: 16.6.0
+      tslib: 2.4.0
+    dev: false
 
   /@graphql-tools/utils/8.6.13_graphql@16.6.0:
     resolution: {integrity: sha512-FiVqrQzj4cgz0HcZ3CxUs8NtBGPZFpmsVyIgwmL6YCwIhjJQnT72h8G3/vk5zVfjfesht85YGp0inWWuoCKWzg==}
@@ -624,6 +657,7 @@ packages:
     dependencies:
       graphql: 16.6.0
       tslib: 2.4.0
+    dev: true
 
   /@istanbuljs/load-nyc-config/1.1.0:
     resolution: {integrity: sha512-VjeHSlIzpv/NyD3N0YuHfXOPDIixcA1q2ZV98wsMqcYlPmv2n3Yb2lYP9XMElnaFVXg5A7YLTeLu6V84uQDjmQ==}
