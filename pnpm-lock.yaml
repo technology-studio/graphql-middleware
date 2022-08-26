@@ -25,7 +25,7 @@ specifiers:
   semantic-release: ^19.0.5
   ts-jest: ^28.0.8
   ts-node: ^10.9.1
-  typescript: ^4.7.4
+  typescript: ^4.8.2
 
 dependencies:
   '@graphql-tools/delegate': 9.0.3_graphql@16.6.0
@@ -37,7 +37,7 @@ devDependencies:
   '@types/node': 16.6.1
   apollo-server: 3.10.1_graphql@16.6.0
   axios: 0.27.2
-  bob-esbuild: 4.0.3_k2el7cp5jxvwn2itdedexlaiqy
+  bob-esbuild: 4.0.3_4uzyelxoia3ggpguotwoy3f7fe
   bob-esbuild-cli: 4.0.0_bob-esbuild@4.0.3
   codecov: 3.8.3
   esbuild: 0.15.5
@@ -49,9 +49,9 @@ devDependencies:
   pretty-quick: 3.1.3_prettier@2.7.1
   rimraf: 3.0.2
   semantic-release: 19.0.5
-  ts-jest: 28.0.8_xc5h655djrkql4osj75yosjpya
-  ts-node: 10.9.1_ffddv3eoypor7thx3cqigqwdju
-  typescript: 4.7.4
+  ts-jest: 28.0.8_sjejfvfeonwowk2gxhf27e7xsa
+  ts-node: 10.9.1_q7tivyzu4nv2q4dwv672u2c5ku
+  typescript: 4.8.2
 
 packages:
 
@@ -1803,7 +1803,7 @@ packages:
       bob-esbuild:
         optional: true
     dependencies:
-      bob-esbuild: 4.0.3_k2el7cp5jxvwn2itdedexlaiqy
+      bob-esbuild: 4.0.3_4uzyelxoia3ggpguotwoy3f7fe
       commander: 9.3.0
     dev: true
 
@@ -1823,7 +1823,7 @@ packages:
       rollup: 2.75.6
     dev: true
 
-  /bob-esbuild/4.0.3_k2el7cp5jxvwn2itdedexlaiqy:
+  /bob-esbuild/4.0.3_4uzyelxoia3ggpguotwoy3f7fe:
     resolution: {integrity: sha512-9AGuh6V5Whsditj5n2oJjWAvHwgadgD2HD0qZ4rEBwY9tpj8YbfYeiaXQQV9qJxwT9oUYOsQE53wPNYBFDIfJA==}
     peerDependencies:
       esbuild: '>=0.14.39'
@@ -1838,7 +1838,7 @@ packages:
       bob-esbuild-plugin: 4.0.0_g736pehs2nbqeakkhkz44lzuuy
       esbuild: 0.15.5
       rollup: 2.75.6
-      typescript: 4.7.4
+      typescript: 4.8.2
     dev: true
 
   /body-parser/1.19.0:
@@ -3395,7 +3395,7 @@ packages:
       pretty-format: 28.1.3
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.9.1_ffddv3eoypor7thx3cqigqwdju
+      ts-node: 10.9.1_q7tivyzu4nv2q4dwv672u2c5ku
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5092,7 +5092,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-jest/28.0.8_xc5h655djrkql4osj75yosjpya:
+  /ts-jest/28.0.8_sjejfvfeonwowk2gxhf27e7xsa:
     resolution: {integrity: sha512-5FaG0lXmRPzApix8oFG8RKjAz4ehtm8yMKOTy5HX3fY6W8kmvOrmcY0hKDElW52FJov+clhUbrKAqofnj4mXTg==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -5122,11 +5122,11 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.3.7
-      typescript: 4.7.4
+      typescript: 4.8.2
       yargs-parser: 21.0.1
     dev: true
 
-  /ts-node/10.9.1_ffddv3eoypor7thx3cqigqwdju:
+  /ts-node/10.9.1_q7tivyzu4nv2q4dwv672u2c5ku:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -5152,7 +5152,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.7.4
+      typescript: 4.8.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -5203,8 +5203,8 @@ packages:
       mime-types: 2.1.32
     dev: true
 
-  /typescript/4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+  /typescript/4.8.2:
+    resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
