@@ -6,5 +6,11 @@
   ],
   "rangeStrategy": "bump",
   "includeForks": true,
-  "pathRules": []
+  "pathRules": [],
+  "assignees": [
+    "rostislav-simonik",
+  ],
+  "reviewers": [
+    "rostislav-simonik"
+  ]
 }
