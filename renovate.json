@@ -6,7 +6,7 @@
   ],
   "rangeStrategy": "bump",
   "includeForks": true,
-  "pathRules": [],
+  "packageRules": [],
   "assignees": [
     "rostislav-simonik",
   ],
