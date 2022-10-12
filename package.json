@@ -28,11 +28,11 @@
     "@graphql-tools/schema": "^9.0.4"
   },
   "devDependencies": {
-    "@types/jest": "^29.1.1",
+    "@types/jest": "^29.1.2",
     "@types/lodash": "^4.14.186",
     "@types/node": "*",
-    "apollo-server": "^3.10.2",
-    "axios": "^1.0.0",
+    "apollo-server": "^3.10.3",
+    "axios": "^1.1.2",
     "bob-esbuild": "^4.0.3",
     "bob-esbuild-cli": "^4.0.0",
     "codecov": "^3.8.3",
