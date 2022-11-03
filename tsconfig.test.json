@@ -6,9 +6,17 @@
     "sourceMap": true,
     "rootDir": "src",
     "outDir": "dist",
-    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "lib": [
+      "esnext"
+    ],
     "skipLibCheck": true
   },
-  "include": ["tests/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
