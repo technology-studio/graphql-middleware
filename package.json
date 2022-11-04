@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.2.2",
-    "@types/lodash": "^4.14.187",
+    "@types/lodash": "^4.14.188",
     "@types/node": "*",
     "apollo-server": "^3.11.1",
     "axios": "^1.1.3",
