@@ -526,26 +526,26 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@graphql-tools/batch-execute@8.5.17":
-  version "8.5.17"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/batch-execute/-/batch-execute-8.5.17.tgz#1d3294becfd2c3c6bddfe56ff3507ce89ca236a2"
-  integrity sha512-ma6zlFIBG8VuqSwE8jhYhMbaFsJ1YdVsnpFmbQ0O/qJTmlgdAWCyAZTJH0aZ24fqNFfj/vW/Qtpqn7gRcF8QOw==
+"@graphql-tools/batch-execute@8.5.18":
+  version "8.5.18"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/batch-execute/-/batch-execute-8.5.18.tgz#2f0e91cc12e8eed32f14bc814f27c6a498b75e17"
+  integrity sha512-mNv5bpZMLLwhkmPA6+RP81A6u3KF4CSKLf3VX9hbomOkQR4db8pNs8BOvpZU54wKsUzMzdlws/2g/Dabyb2Vsg==
   dependencies:
     "@graphql-tools/utils" "9.2.1"
-    dataloader "2.2.1"
+    dataloader "2.2.2"
     tslib "^2.4.0"
     value-or-promise "1.0.12"
 
-"@graphql-tools/delegate@^9.0.26":
-  version "9.0.26"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-9.0.26.tgz#b931607bf11db26da307d12cc2a97eec82a677f1"
-  integrity sha512-RPcjH+NnK3e4e9/6CwKbyv9DtVa+ojiwvsbW9Q6zMXRdlP0zazsQOe5+ktL3yE+d3zlzGAasp0WAiSLUS5vFRw==
+"@graphql-tools/delegate@^9.0.27":
+  version "9.0.27"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-9.0.27.tgz#e500554bace46cc7ededd48a0c28079f747c9f49"
+  integrity sha512-goYewiPls/RDXiRTl1S2tRPlsyDQCxlDWqd0uEIzQZ6aWSyiutfwQnTzdbZPXK0qOblEVMIqFhSGrB6fp0OkBA==
   dependencies:
-    "@graphql-tools/batch-execute" "8.5.17"
+    "@graphql-tools/batch-execute" "8.5.18"
     "@graphql-tools/executor" "0.0.14"
     "@graphql-tools/schema" "9.0.16"
     "@graphql-tools/utils" "9.2.1"
-    dataloader "2.2.1"
+    dataloader "2.2.2"
     tslib "~2.5.0"
     value-or-promise "1.0.12"
 
@@ -2585,10 +2585,10 @@ cssfilter@0.0.10:
   resolved "https://registry.yarnpkg.com/cssfilter/-/cssfilter-0.0.10.tgz#c6d2672632a2e5c83e013e6864a42ce8defd20ae"
   integrity sha512-FAaLDaplstoRsDR8XGYH51znUN0UY7nMc6Z9/fvE8EXGwvJE9hu7W2vHwx1+bd6gCYnln9nLbzxFTrcO9YQDZw==
 
-dataloader@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-2.2.1.tgz#f07ab712514313a34b1507a308dbb7dc14bac715"
-  integrity sha512-Zn+tVZo1RKu120rgoe0JsRk56UiKdefPSH47QROJsMHrX8/S9UJvi5A/A6+Sbuk6rE88z5JoM/wIJ09Z7BTfYA==
+dataloader@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-2.2.2.tgz#216dc509b5abe39d43a9b9d97e6e5e473dfbe3e0"
+  integrity sha512-8YnDaaf7N3k/q5HnTJVuzSyLETjoZjVmHc4AeKAzOvKHEFQKcn64OKBfzHYtE9zGjctNM7V9I0MfnUVLpi7M5g==
 
 dateformat@^3.0.0:
   version "3.0.3"
