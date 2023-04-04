@@ -536,10 +536,10 @@
     tslib "^2.4.0"
     value-or-promise "1.0.12"
 
-"@graphql-tools/delegate@^9.0.28":
-  version "9.0.28"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-9.0.28.tgz#026275094b2ff3f4cbbe99caff2d48775aeb67d6"
-  integrity sha512-8j23JCs2mgXqnp+5K0v4J3QBQU/5sXd9miaLvMfRf/6963DznOXTECyS9Gcvj1VEeR5CXIw6+aX/BvRDKDdN1g==
+"@graphql-tools/delegate@^9.0.29":
+  version "9.0.29"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-9.0.29.tgz#40da9eb09692b9bd3bd0cf672d332f0ea9e68abd"
+  integrity sha512-kg/W2Cna31a72prWuqwe0b9cTnDaV7kMgE5R5Lwzi/XMF0ieku2tGJEN9VveLxcHeD2LgdMP0v28e5MeGlkuEw==
   dependencies:
     "@graphql-tools/batch-execute" "^8.5.18"
     "@graphql-tools/executor" "^0.0.15"
