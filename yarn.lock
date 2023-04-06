@@ -536,26 +536,26 @@
     tslib "^2.4.0"
     value-or-promise "1.0.12"
 
-"@graphql-tools/delegate@^9.0.29":
-  version "9.0.29"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-9.0.29.tgz#40da9eb09692b9bd3bd0cf672d332f0ea9e68abd"
-  integrity sha512-kg/W2Cna31a72prWuqwe0b9cTnDaV7kMgE5R5Lwzi/XMF0ieku2tGJEN9VveLxcHeD2LgdMP0v28e5MeGlkuEw==
+"@graphql-tools/delegate@^9.0.30":
+  version "9.0.30"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-9.0.30.tgz#d91b0b61b91491e6434b1738ed831e89a4e228be"
+  integrity sha512-Q4xmpmFcPPrcrR6hZRmoinq9vPR38w26YKu8otKC6TgGpxxk7IBNe6bnvB9h0l05bs8nhDcYZBiLerqtYUFy8Q==
   dependencies:
     "@graphql-tools/batch-execute" "^8.5.18"
-    "@graphql-tools/executor" "^0.0.15"
+    "@graphql-tools/executor" "^0.0.16"
     "@graphql-tools/schema" "^9.0.16"
     "@graphql-tools/utils" "^9.2.1"
     dataloader "^2.2.2"
     tslib "^2.5.0"
     value-or-promise "^1.0.12"
 
-"@graphql-tools/executor@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/executor/-/executor-0.0.15.tgz#cbd29af2ec54213a52f6c516a7792b3e626a4c49"
-  integrity sha512-6U7QLZT8cEUxAMXDP4xXVplLi6RBwx7ih7TevlBto66A/qFp3PDb6o/VFo07yBKozr8PGMZ4jMfEWBGxmbGdxA==
+"@graphql-tools/executor@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/executor/-/executor-0.0.16.tgz#6c7cfbc04c05149b8dd6630f9debeb0293e806d5"
+  integrity sha512-TGhvJPNaZbvhurLQtYBfedvNRuokvoPRC3vCjeHCe9AOUfb8Vn7Jvrpnys5R/wdCnXKsOpCm9QZt9OqNMfkByQ==
   dependencies:
     "@graphql-tools/utils" "9.2.1"
-    "@graphql-typed-document-node/core" "3.1.2"
+    "@graphql-typed-document-node/core" "3.2.0"
     "@repeaterjs/repeater" "3.0.4"
     tslib "^2.4.0"
     value-or-promise "1.0.12"
@@ -664,10 +664,10 @@
     "@graphql-typed-document-node/core" "^3.1.1"
     tslib "^2.4.0"
 
-"@graphql-typed-document-node/core@3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.2.tgz#6fc464307cbe3c8ca5064549b806360d84457b04"
-  integrity sha512-9anpBMM9mEgZN4wr2v8wHJI2/u5TnnggewRN6OlvXTTnuVyoY19X6rOv9XTqKRw6dcGKwZsBi8n0kDE2I5i4VA==
+"@graphql-typed-document-node/core@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.2.0.tgz#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
+  integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
 "@graphql-typed-document-node/core@^3.1.1":
   version "3.1.1"
