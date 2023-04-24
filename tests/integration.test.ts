@@ -1,6 +1,7 @@
 import { makeExecutableSchema } from '@graphql-tools/schema'
 // import { GraphQLServer as YogaServer } from 'graphql-yoga'
-import { ApolloServer } from 'apollo-server'
+import { ApolloServer } from '@apollo/server'
+import { startStandaloneServer } from '@apollo/server/standalone';
 import Axios from 'axios'
 // import { AddressInfo } from 'ws'
 import { applyMiddleware } from '../src'
@@ -91,9 +92,12 @@ describe('integrations', () => {
       schema: schemaWithMiddleware,
     })
 
-    await server.listen({ port: 8008 })
+    const { url } = await startStandaloneServer(server, {
+      listen: { port: 8008 }
+    })
 
-    const uri = `http://localhost:8008/`
+
+
 
     /* Tests */
 
@@ -103,7 +107,7 @@ describe('integrations', () => {
       }
     `
     try {
-      const body = await Axios.post(uri, { query })
+      const body = await Axios.post(url, { query })
       /* Tests. */
 
       expect(body.data).toEqual({
