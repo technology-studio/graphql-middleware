@@ -8,9 +8,11 @@
   "includeForks": true,
   "packageRules": [],
   "assignees": [
-    "rostislav-simonik"
+    "rostislav-simonik",
+    "erik-slovak"
   ],
   "reviewers": [
-    "rostislav-simonik"
+    "rostislav-simonik",
+    "erik-slovak"
   ]
 }
