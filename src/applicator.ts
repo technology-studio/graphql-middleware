@@ -41,11 +41,10 @@ function wrapResolverInMiddleware<TSource, TContext, TArgs>(
 }
 
 function parseField(field: GraphQLField<any, any, any>) {
-  const argsMap = field.args.reduce(
-    (acc, cur) => {
-      acc[cur.name] = cur;
-      return acc;
-    }, {} as Record<string, GraphQLArgument>,
+  const argsMap = Object.fromEntries(
+    field.args.map(
+      (cur) => [cur.name, cur]
+    )
   )
   return {
     ...field,
@@ -129,34 +128,28 @@ function applyMiddlewareToType<TSource, TContext, TArgs>(
   middleware:
     | IMiddlewareFunction<TSource, TContext, TArgs>
     | IMiddlewareFieldMap<TSource, TContext, TArgs>,
-): IResolvers {
+): Record<string, IResolverOptions> {
   const fieldMap = type.getFields()
 
   if (isMiddlewareFunction(middleware)) {
-    const resolvers = Object.keys(fieldMap).reduce(
-      (resolvers, fieldName) => {
-        resolvers[fieldName] = applyMiddlewareToField(
-          fieldMap[fieldName],
+    const resolvers = Object.fromEntries(
+      Object.entries(fieldMap).map(([fieldName, field]) => [
+        fieldName,
+        applyMiddlewareToField(
+          field,
           options,
           middleware as IMiddlewareFunction<TSource, TContext, TArgs>,
-        );
-        return resolvers;
-      },
-      {},
+        ),
+      ]),
     )
 
     return resolvers
   } else {
-    const resolvers = Object.keys(middleware).reduce(
-      (resolvers, fieldName) => {
-        resolvers[fieldName] = applyMiddlewareToField(
-          fieldMap[fieldName],
-          options,
-          middleware[fieldName],
-        );
-        return resolvers;
-      },
-      {},
+    const resolvers = Object.fromEntries(
+      Object.entries(middleware).map(([fieldName, middlewareFn]) => [
+        fieldName,
+        applyMiddlewareToField(fieldMap[fieldName], options, middlewareFn),
+      ]),
     )
 
     return resolvers
@@ -170,23 +163,21 @@ function applyMiddlewareToSchema<TSource, TContext, TArgs>(
 ): IResolvers {
   const typeMap = schema.getTypeMap()
 
-  const resolvers = Object.keys(typeMap)
-    .filter(
-      (type) =>
-        isGraphQLObjectType(typeMap[type]) &&
-        !isIntrospectionType(typeMap[type]),
-    )
-    .reduce(
-      (resolvers, type) => {
-        resolvers[type] = applyMiddlewareToType(
-          typeMap[type] as GraphQLObjectType,
+  const resolvers = Object.fromEntries(
+    Object.entries(typeMap)
+      .filter(
+        ([, typeValue]) =>
+          isGraphQLObjectType(typeValue) && !isIntrospectionType(typeValue),
+      )
+      .map(([typeName, type]) => [
+        typeName,
+        applyMiddlewareToType(
+          type as GraphQLObjectType,
           options,
           middleware,
-        );
-        return resolvers;
-      },
-      {},
-    )
+        ),
+      ]),
+  )
 
   return resolvers
 }
@@ -211,16 +202,15 @@ export function generateResolverFromSchemaAndMiddleware<
   } else {
     const typeMap = schema.getTypeMap()
 
-    const resolvers = Object.keys(middleware).reduce(
-      (resolvers, type) => {
-        resolvers[type] = applyMiddlewareToType(
-          typeMap[type] as GraphQLObjectType,
+    const resolvers = Object.fromEntries(
+      Object.entries(middleware).map(([typeName, middlewareFn]) => [
+        typeName,
+        applyMiddlewareToType(
+          typeMap[typeName] as GraphQLObjectType,
           options,
-          middleware[type],
-        );
-        return resolvers;
-      },
-      {},
+          middlewareFn,
+        ),
+      ]),
     )
 
     return resolvers
