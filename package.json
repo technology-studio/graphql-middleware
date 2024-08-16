@@ -24,8 +24,8 @@
   },
   "author": "Matic Zavadlal <matic.zavadlal@gmail.com>",
   "dependencies": {
-    "@graphql-tools/delegate": "^10.0.18",
-    "@graphql-tools/schema": "^10.0.5"
+    "@graphql-tools/delegate": "^10.0.19",
+    "@graphql-tools/schema": "^10.0.6"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
