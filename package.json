@@ -31,7 +31,7 @@
     "@types/jest": "^29.5.13",
     "@types/lodash": "^4.17.7",
     "@types/node": "*",
-    "@apollo/server": "^4.11.0",
+    "@apollo/server": "^5.0.0",
     "axios": "^1.17.0",
     "bob-esbuild": "^4.0.3",
     "bob-esbuild-cli": "^4.0.0",
